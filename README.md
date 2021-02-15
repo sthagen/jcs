@@ -2,6 +2,11 @@
 
 # JSON Canonicalization
 
+[![Go Report Card](https://goreportcard.com/badge/github.com/gowebpki/jcs)](https://goreportcard.com/report/github.com/gowebpki/jcs) 
+[![godoc](https://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://pkg.go.dev/github.com/gowebpki/jcs)
+[![GitHub license](https://img.shields.io/github/license/gowebpki/jcs.svg?style=flat)](https://github.com/gowebpki/jcs/blob/master/LICENSE)
+[![GitHub go.mod Go version of a Go module](https://img.shields.io/github/go-mod/go-version/gowebpki/jcs.svg?style=flat)](https://github.com/gowebpki/jcs)
+
 Cryptographic operations like hashing and signing depend on that the target 
 data does not change during serialization, transport, or parsing. 
 By applying the rules defined by JCS (JSON Canonicalization Scheme), 
